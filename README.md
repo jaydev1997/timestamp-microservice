@@ -6,23 +6,23 @@ This is a microservice API project for Free Code Camp that will accept either a 
 readable date or a unix formatted date and return a json response with the date formatted
 as both. If the input is neither it will return `null` values.
 
-You can test it at [https://.herokuapp.com/](https://.herokuapp.com/)
+You can test it at [https://unixtimemicroserve.herokuapp.com/](https://unixtimemicroserve.herokuapp.com/)
 
 ### Usage
 
 ```
-https://.herokuapp.com/January 10, 2015
+https://unixtimemicroserve.herokuapp.com/August 15, 1947
 ```
 ```
-https://.herokuapp.com/1420848000
+https://unixtimemicroserve.herokuapp.com/-706320000
 ```
 
 ### Sample Output
 
 ```javascript
 {
-  humanReadable: "January 10, 2015",
-  unix: "1420848000"
+  humanReadable: "August 15, 1947",
+  unix: "-706320000"
 }
 ```
 
