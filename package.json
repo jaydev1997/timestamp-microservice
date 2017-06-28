@@ -1,0 +1,22 @@
+{
+  "name": "timestamp-microservice-api",
+  "version": "0.0.1",
+  "description": "Simple API to validate human readable and unix timestamps. Free Code Camp project.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaydev1997/timestamp-microservice"
+  },
+  "author": "Jaydev Shiroya <shiroyajaydev8@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "~3.2.4",
+    "moment": "^2.10.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.2.4"
+  }
+}

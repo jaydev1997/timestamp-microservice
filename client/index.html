@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Timestamp Microservice API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="page-header">
+      <h1>Timestamp Microservice API</h1>
+    </div>
+    <div>
+      <h2>What is this?</h2>
+      <p>
+        This is a microservice API project for Free Code Camp that will accept either a human
+        readable date or a unix formatted date and return a json response with the date formatted
+        as both. If the input is neither it will return <code>null</code> values.
+      </p>
+      <h3>Usage:</h3>
+      <pre>https://.herokuapp.com/January 10, 2015</pre>
+      <pre>https://.herokuapp.com/1420848000</pre>
+      <h3>Example Response:</h3>
+<pre>{
+  humanReadable: "January 10, 2015",
+  unix: "1420848000"
+}</pre>
+    </div>
+  </body>
+</html>
